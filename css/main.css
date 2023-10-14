@@ -1,1 +1,75 @@
 @import 'reset.css';
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  padding: 0.5rem;
+  background: white;
+}
+.page-wrapper {
+  position: relative;
+}
+.container {
+  margin: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+.header {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background: transparent;
+
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 3.5rem;
+  padding-left: 1.25rem;
+  background: white;
+  border-radius: 0.5625rem;
+  box-shadow: 0 1.5rem 2rem -0.5rem rgba(0, 0, 0, 0.07), 0 0.25rem 2rem 0 rgba(0, 0, 0, 0.03);
+}
+.header__logo {
+  font-size: 1.125rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 105px;
+  position: relative;
+}
+.header__logo-text {
+  margin-bottom: 0.4rem;
+}
+.header__nav {
+  display: none;
+}
+.header__menu-btn {
+  border: none;
+  background: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-right: 0.125rem;
+}
+.intro {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #FBD7FF 10%, #FFDEC1 80%);
+  border-radius: 0.8125rem;
+  display: flex;
+  justify-content: center;
+}
+.intro__title {
+  margin-top: 148px;
+  margin-top: 9.25rem;
+  text-align: center;
+  font-weight: 600;
+  max-width: 32rem;
+  font-size: 2.5rem;
+  line-height: 1.3; 
+}
