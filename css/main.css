@@ -59,12 +59,25 @@ body {
   padding-right: 1rem;
   margin-right: 0.125rem;
 }
+.header__menu-icon--close-menu {
+  display: none;
+}
+.header__menu-btn--active .header__menu-icon--open-menu {
+  display: none;
+}
+.header__menu-btn--active .header__menu-icon--close-menu {
+  display: block;
+}
 .header__nav {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
   background: white;
   width: 100%;
   border-top: 1px solid rgb(231, 231, 231);
+  display: none;
+}
+.header__nav--active {
+  display: block;
 }
 .header__nav-list {
   width: 100%;
