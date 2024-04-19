@@ -1,0 +1,53 @@
+.quote {
+  width: 100%;
+  background-color: #000;
+  border-radius: 0.8125rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+}
+.quote .container {
+  padding-bottom: 1.21rem;
+  padding-left: 1.25rem;
+  padding-top: 1.25rem;
+}
+.quote__card {
+  display: flex;
+  font-size: 1rem;
+}
+.quote__card,
+.quote__card:visited {
+  text-decoration: none;
+  color: white;
+}
+.quote__card img {
+  width: 56px;
+  height: 56px;
+  border-radius: 0.3125rem;
+  display: inline-block;
+}
+.quote__blockquote {
+  display: inline-block;
+  margin-left: 1rem;
+  padding-top: 0;
+}
+.quote__blockquote p {
+  line-height: 1.6;
+}
+.quote__blockquote p::before {
+  content: '“';
+  letter-spacing: -.235rem;
+}
+.quote__blockquote p span {
+  letter-spacing: -.235rem;
+}
+.quote__blockquote p::after {
+  content: '”';
+}
+.quote__blockquote cite {
+  color: #A3A3A3;
+  line-height: 1.43;
+  display: block;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
