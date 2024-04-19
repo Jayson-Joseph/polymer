@@ -1,5 +1,7 @@
 @import 'reset.css';
 @import 'header.css';
+@import 'intro.css';
+@import 'grow-brands.css';
 body {
   font-family: 'SuisseIntl', 'Noto Sans JP', sans-serif;
   padding: 0.5rem;

@@ -50,3 +50,44 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+body {
+  font-family: 'SuisseIntl', 'Noto Sans JP', sans-serif;
+  padding: 0.5rem;
+  background: white;
+}
+@font-face {
+  font-family: "SuisseIntl";
+  src: url('../fonts/SuisseIntl-Regular-WebXL.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SuisseIntl-Book";
+  src: url('../fonts/SuisseIntl-Book-WebXL.woff2') format('woff2');
+  font-weight: 450;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SuisseIntl-Med";
+  src: url('../fonts/SuisseIntl-Medium-WebXL.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SuisseIntl-SB";
+  src: url('../fonts/SuisseIntl-SemiBold-WebXL.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+.page-wrapper {
+  position: relative;
+}
+.container {
+  padding-top: 1.4rem;
+  padding-bottom: 2.85rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
