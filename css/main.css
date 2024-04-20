@@ -5,11 +5,12 @@
 @import 'quote.css';
 @import 'toolkit.css';
 @import 'feature.css';
+@import 'tailor.css';
 body {
   font-family: 'SuisseIntl', 'Noto Sans JP', sans-serif;
   padding: 0.5rem;
   background: white;
-  min-height: 5000px;
+  min-height: 50000px;
 }
 @font-face {
   font-family: "SuisseIntl";
