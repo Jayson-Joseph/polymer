@@ -1,0 +1,58 @@
+.feature {
+  width: 100%;
+  background-color: #F4F4F4;
+  border-radius: 0.8125rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+}
+.feature .container {
+  padding-top: 3rem;
+  padding-bottom: 3.5rem;
+}
+.feature span[data-style] {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5625rem;
+  box-shadow: 0 1.5rem 2rem -0.5rem rgba(0, 0, 0, 0.07),0 0.25rem 2rem 0 rgba(0, 0, 0, 0.03);
+}
+.feature img {
+  display: block;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  border-radius: 0.5625rem;
+}
+.feature__title {
+  font-family: 'SuisseIntl-SB', sans-serif;
+  margin-top: 2.25rem;
+  max-width: 32rem;
+  font-size: 1.875rem;
+  line-height: 1.3; 
+  color: #000;
+  padding-right: 2rem;
+}
+.feature__text {
+  margin-top: 1rem;
+  color: #555555;
+  font-size: 1rem; 
+  line-height: 1.6;
+}
+.feature__list {
+  margin-top: 2rem;
+  color: #555555;
+}
+.feature__list-item {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+.feature__list-item svg {
+  margin-right: 0.5rem;
+  color: black;
+  font-size: 1.125rem;
+  height: 1.28571429em;
+  width: 1.28571429em;
+}
