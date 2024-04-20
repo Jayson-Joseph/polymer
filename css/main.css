@@ -3,6 +3,7 @@
 @import 'intro.css';
 @import 'grow-brands.css'; 
 @import 'quote.css';
+@import 'toolkit.css';
 body {
   font-family: 'SuisseIntl', 'Noto Sans JP', sans-serif;
   padding: 0.5rem;
