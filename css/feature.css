@@ -6,9 +6,13 @@
   flex-direction: column;
   margin-top: 0.5rem;
 }
+
 .feature .container {
   padding-top: 3rem;
   padding-bottom: 3.5rem;
+}
+.feature--no-list .container{
+  padding-bottom: 3rem;
 }
 .feature span[data-style] {
   display: block;
