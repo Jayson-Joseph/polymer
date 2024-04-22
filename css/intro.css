@@ -5,6 +5,14 @@
   display: flex;
   flex-direction: column;
 }
+.intro.intro--outro {
+  margin-top: 0.5rem; 
+  background-image: linear-gradient( to top left, #FBD7FF 10%, #FFDEC1 90% );
+}
+.intro.intro--outro .container {
+  padding-top: 3.75rem;
+  padding-bottom: 3.5rem;
+}
 .intro__title {
   font-family: 'SuisseIntl-SB', sans-serif;
   margin-top: 8.12rem;
@@ -13,11 +21,19 @@
   font-size: 2.5rem;
   line-height: 1.3; 
 }
+.intro.intro--outro .intro__title {
+  margin-top: 0;
+  font-size: 1.875rem;
+}
 .intro p {
   margin-top: 0.75rem;
   font-size: 1rem;
   line-height: 1.6;
   text-align: center;
+}
+.intro.intro--outro p {
+  margin-top: 1rem;
+  color: #555;
 }
 .intro__btn {
   font-family: "SuisseIntl-Book", sans-serif;

@@ -9,12 +9,20 @@
 .toolkit.toolkit--get-hiring {
   background-image: linear-gradient( to top right, #FFDEC1, #FBD7FF 90% );
 }
+.toolkit.toolkit--trial {
+  background-image: none;
+  background-color: #F4F4F4;
+}
 .toolkit .container {
   padding-top: 3rem;
   padding-bottom: 6rem;
 }
 .toolkit.toolkit--get-hiring  .container {
   padding-bottom: 3rem;
+}
+.toolkit.toolkit--trial .container {
+  padding-top: 3rem;
+  padding-bottom: 2.76rem;
 }
 .toolkit__title {
   margin-top: 0.75rem;
@@ -31,6 +39,9 @@
 }
 .toolkit__tools {
   margin-top: 2.5rem;
+}
+.toolkit.toolkit--trial .toolkit__tools {
+  margin: 0;
 }
 .toolkit__tool  {
   display: flex;
@@ -81,6 +92,16 @@ padding-bottom: 1px;
   color: #555555;
   font-size: 0.875rem;
   line-height: 1.6;
+}
+.toolkit.toolkit--trial .toolkit__tool-info p {
+  font-family: "SuisseIntl-Med", sans-serif;
+  color: #555555;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+.toolkit.toolkit--trial .toolkit__tool-info em {
+  color: #000;
 }
 .toolkit__tool-info a {
   text-decoration: none;
