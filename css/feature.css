@@ -14,6 +14,9 @@
 .feature--no-list .container{
   padding-bottom: 3rem;
 }
+.feature--integrate .container {
+  padding-top: 1.5rem;
+}
 .feature span[data-style] {
   display: block;
   width: 100%;
@@ -38,11 +41,29 @@
   color: #000;
   padding-right: 2rem;
 }
+.feature--integrate .feature__title {
+  padding-right: 0;
+}
 .feature__text {
   margin-top: 1rem;
   color: #555555;
   font-size: 1rem; 
   line-height: 1.6;
+}
+.feature__integrations {
+
+}
+.feature__integration {
+  display: flex;
+  flex-direction: column;
+}
+.feature--integrate .feature__image {
+  margin-top: 2.5rem;
+}
+.feature--integrate .feature__image img {
+  display: block;
+  max-height: 100%;
+  max-width: 100%;
 }
 .feature__list {
   margin-top: 2rem;
