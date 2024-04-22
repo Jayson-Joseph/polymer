@@ -51,14 +51,15 @@
   line-height: 1.6;
 }
 .feature__integrations {
-
+  margin-top: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: 3rem;
+  column-gap: 2rem;
 }
 .feature__integration {
   display: flex;
   flex-direction: column;
-}
-.feature--integrate .feature__image {
-  margin-top: 2.5rem;
 }
 .feature--integrate .feature__image img {
   display: block;
