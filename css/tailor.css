@@ -8,10 +8,10 @@
 }
 .tailor .container {
   padding-top: 2.95rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2.95rem;
 }
 .tailor__title {
-  margin-top: 0.75rem;
+  margin-top: 0.8rem;
   max-width: 32rem;
   font-family: 'SuisseIntl-SB', sans-serif;
   font-size: 1.875rem;
@@ -41,7 +41,7 @@
   display: block;
   max-height: 100%;
   max-width: 100%;
-}
+} 
 .tailor__tools {
   margin-top: 2.85rem;
 }
