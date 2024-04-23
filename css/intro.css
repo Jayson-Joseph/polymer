@@ -24,6 +24,7 @@
 .intro.intro--outro .intro__title {
   margin-top: 0;
   font-size: 1.875rem;
+  line-height: 1.31; 
 }
 .intro p {
   margin-top: 0.75rem;

@@ -6,6 +6,7 @@
 @import 'toolkit.css';
 @import 'feature.css';
 @import 'tailor.css';
+@import 'footer.css';
 body {
   font-family: 'SuisseIntl', 'Noto Sans JP', sans-serif;
   padding: 0.5rem;
