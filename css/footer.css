@@ -9,6 +9,7 @@
 }
 .footer .container {
   padding-top: 2.5rem;
+  padding-bottom: 5rem;
 }
 .footer__lists {
   display: flex;
@@ -35,4 +36,48 @@
 .footer__list-item a:visited {
   text-decoration: none;
   color: inherit;
+}
+.footer__bottom {
+  text-align: center;
+  margin-top: 3rem;
+}
+.footer__logo,
+.footer__logo:visited {
+  font-size: 1.125rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 103px;
+  position: relative;
+  font-family: "SuisseIntl-SB";
+  color: white;
+  text-decoration: none;
+  margin: 0 auto;
+}
+.footer__logo svg {
+  fill: white;
+}
+.footer__logo-text {
+  display: inline-block;
+  padding-bottom: 1px;
+}
+.footer__bottom p {
+  font-size: 0.75rem;
+  line-height: 1.6;
+  color: #727272;
+  margin-top: 1rem;
+}
+.footer__featured {
+  display: inline-block;
+  margin-top: 1.5rem;
+  position: relative;
+  max-width: 204px;
+}
+.footer__featured img {
+  display: inline-block;
+  width: 100%;
+}
+.footer__bottom p:last-of-type {
+  margin-top: 1.6rem;
 }
