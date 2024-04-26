@@ -1,6 +1,6 @@
 .header {
   position: absolute;
-  top: 16px;
+  top: 1rem;
   left: 0;
   width: 100%;
   padding-left: 1rem;
@@ -107,4 +107,14 @@
 .header__btn--sign-up {
   background: black;
   color: white;
+}
+@media (min-width: 40rem) {
+  .header {
+    top: 1.25rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  .header__container {
+    height: 4rem;
+  }
 }

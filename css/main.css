@@ -46,3 +46,19 @@ body {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+/* 640px and above */
+@media (min-width: 40rem) {
+  body {
+    padding: 0.75rem;
+  }
+  .container {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+}
+@media (min-width: 56rem) {
+  
+}
+@media (min-width: 64rem) {
+  
+}
